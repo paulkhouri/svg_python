@@ -1,0 +1,77 @@
+
+    <svg version = "1.1" viewBox = "-100 -100 200 200" xmlns = "http://www.w3.org/2000/svg" >
+    <rect x = "-100" y = "-100" width = "200" height = "200" fill = "rgb(200,200,200)" />
+    <line x1 = "0" x2 = "0" y1 = "-100" y2 = "100" stroke = "black" stroke-width = "0.1" />
+    <line x1 = "-100" x2 = "100" y1 = "0" y2 = "0" stroke = "black" stroke-width = "0.1" />
+    
+    <defs>
+    <style>
+      .cls-1 {
+        fill: #3ab54a;
+        stroke-width: 0px;
+        fill-opacity:0.7;
+      }
+        .cls-2 {
+        fill: #3ab5aa;
+        stroke-width: 0px;
+        fill-opacity:0.7;
+      }
+    </style>
+  </defs>
+<g transform="scale(1.5)">
+  <rect x="0" y="0" width="30" height="70" fill = "black"/>
+  <path class="cls-2" d="m30 ,38.3C30,27.74 ,15 ,0 ,15,0,15,0,0,27.74,0,38.3s14.06,10.57,14.06,10.57v18.49l-.94,2.64h3.75l-.94-2.64v-18.49s14.06,0,14.06-10.57Z"
+  transform="scale(0.5) translate(-15,-70) rotate(80 15 70)"
+  />
+    <path class="cls-2" d="m30 ,38.3C30,27.74 ,15 ,0 ,15,0,15,0,0,27.74,0,38.3s14.06,10.57,14.06,10.57v18.49l-.94,2.64h3.75l-.94-2.64v-18.49s14.06,0,14.06-10.57Z"
+  transform="scale(0.75) translate(-15,-70) rotate(120 15 70)"
+  />
+  </g>
+ 
+
+    
+    <rect
+    x = "0"
+    y = "0"
+    width = "1"
+    height = "5"
+    fill = "rgb(200,50,50)"
+    fill-opacity = "0.2"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0,0)" />
+    
+    <rect
+    x = "0"
+    y = "0"
+    width = "1"
+    height = "10"
+    fill = "rgb(200,50,50)"
+    fill-opacity = "0.2"
+    transform = "matrix(-0.809,0.588,-0.588,-0.809,0,0)" />
+    
+    <rect
+    x = "0"
+    y = "0"
+    width = "1"
+    height = "15"
+    fill = "rgb(200,50,50)"
+    fill-opacity = "0.2"
+    transform = "matrix(0.309,-0.951,0.951,0.309,0,0)" />
+    
+    <rect
+    x = "0"
+    y = "0"
+    width = "1"
+    height = "20"
+    fill = "rgb(200,50,50)"
+    fill-opacity = "0.2"
+    transform = "matrix(0.309,0.951,-0.951,0.309,0,0)" />
+    
+    <rect
+    x = "0"
+    y = "0"
+    width = "1"
+    height = "25"
+    fill = "rgb(200,50,50)"
+    fill-opacity = "0.2"
+    transform = "matrix(-0.809,-0.588,0.588,-0.809,0,0)" />
+    </svg>
