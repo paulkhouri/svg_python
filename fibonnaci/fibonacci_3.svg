@@ -1,0 +1,321 @@
+
+    <svg version = "1.1" viewBox = "-100 -100 200 200" xmlns = "http://www.w3.org/2000/svg" >
+    <rect x = "-100" y = "-100" width = "200" height = "200" fill = "rgb(200,200,200)" />
+    <line x1 = "0" x2 = "0" y1 = "-100" y2 = "100" stroke = "black" stroke-width = "0.1" />
+    <line x1 = "-100" x2 = "100" y1 = "0" y2 = "0" stroke = "black" stroke-width = "0.1" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(115, 195, 105)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(110, 188, 101)"
+    fill-opacity = "1"
+    transform = "matrix(0.938,0.542,-0.542,0.938,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(106, 180, 97)"
+    fill-opacity = "1"
+    transform = "matrix(0.583,1.01,-1.01,0.583,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(102, 173, 93)"
+    fill-opacity = "1"
+    transform = "matrix(0.0,1.25,-1.25,0.0,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(97, 166, 89)"
+    fill-opacity = "1"
+    transform = "matrix(-0.667,1.155,-1.155,-0.667,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(92, 159, 85)"
+    fill-opacity = "1"
+    transform = "matrix(-1.227,0.708,-0.708,-1.227,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(88, 152, 81)"
+    fill-opacity = "1"
+    transform = "matrix(-1.5,0.0,-0.0,-1.5,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(84, 144, 77)"
+    fill-opacity = "1"
+    transform = "matrix(-1.371,-0.792,0.792,-1.371,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(79, 137, 73)"
+    fill-opacity = "1"
+    transform = "matrix(-0.833,-1.443,1.443,-0.833,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(74, 130, 69)"
+    fill-opacity = "1"
+    transform = "matrix(-0.0,-1.75,1.75,-0.0,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(70, 122, 65)"
+    fill-opacity = "1"
+    transform = "matrix(0.917,-1.588,1.588,0.917,0.0,0.0)" />
+    
+    <rect
+    x = "-2"
+    y = "0"
+    width = "4"
+    height = "20"
+    fill = "rgb(66, 115, 61)"
+    fill-opacity = "1"
+    transform = "matrix(1.66,-0.958,0.958,1.66,0.0,0.0)" />
+    
+    <circle
+    cx = "0"
+    cy = "0"
+    r = "5"
+    stroke = "red"
+    fill = "transparent"
+    stroke-width = "1"
+    transform = "matrix(0.866,-0.5,0.5,0.866,0.0,0.0)" />
+    
+    <circle
+    cx = "0"
+    cy = "0"
+    r = "1"
+    stroke = "red"
+    fill = "transparent"
+    stroke-width = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-100.0"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(115, 195, 105)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-90.47619047619048"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(110, 188, 101)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-80.95238095238095"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(106, 180, 97)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-71.42857142857143"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(102, 173, 93)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-61.904761904761905"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(97, 166, 89)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-52.38095238095238"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(92, 159, 85)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-42.85714285714286"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(88, 152, 81)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-33.33333333333333"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(84, 144, 77)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-23.80952380952381"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(79, 137, 73)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-14.285714285714292"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(74, 130, 69)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "-4.761904761904759"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(70, 122, 65)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "4.761904761904759"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(66, 115, 61)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "14.285714285714278"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(61, 108, 57)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "23.80952380952381"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(56, 101, 53)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "33.33333333333334"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(52, 94, 49)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "42.85714285714286"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(48, 86, 45)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "52.38095238095238"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(43, 79, 41)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "61.9047619047619"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(38, 72, 37)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "71.42857142857142"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(34, 64, 33)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "80.95238095238096"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(30, 57, 29)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    
+    <rect
+    x = "90.47619047619048"
+    y = "-100"
+    width = "9.523809523809524"
+    height = "10"
+    fill = "rgb(25, 50, 25)"
+    fill-opacity = "1"
+    transform = "matrix(1.0,0.0,-0.0,1.0,0.0,0.0)" />
+    </svg>

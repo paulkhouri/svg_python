@@ -31,7 +31,7 @@ def circle(x,y,r, rot, x_rotation_pt, y_rotation_pt):
     """.format(x,y,r, run_matrix(rot, x_rotation_pt, y_rotation_pt))
     return circle
 
-def rect(x,y,w,h,rot,rgb, x_rotation_pt=0, y_rotation_pt=0, op=1):
+def rect(x,y,w,h,rot,rgb, x_rotation_pt=0, y_rotation_pt=0, R=3,op=1):
     xpos = x
     ypos = y
     rectangle ="""
@@ -43,30 +43,31 @@ def rect(x,y,w,h,rot,rgb, x_rotation_pt=0, y_rotation_pt=0, op=1):
     fill = "{}"
     fill-opacity = "{}"
     transform = "{}" />
-    """.format(xpos,ypos,w,h, rgb , op, run_matrix(rot, x_rotation_pt, y_rotation_pt))
+    """.format(xpos,ypos,w,h, rgb , op, run_matrix(rot, x_rotation_pt, y_rotation_pt, R))
     return rectangle
 
-def run_matrix(rot, x_rotation_pt=0, y_rotation_pt=0):
+def run_matrix(alpha=0, tranX=0, tranY=0, R = 1):
     """
     a c e
     b d f
     0 0 1
-    R.cos(alpha) -R.sin(alpha) -a.R.cos(alpha)+b.Rsin(alpha) + tranx
+    R.cos(alpha)  -R.sin(alpha)   -tranX.R.cos(alpha) + tranY.R.sin(alpha) + tranX
+    R.sin(alpha)   R.cos(alpha)   -tranX.R.sin(alpha) - tranY.R.cos(aplha) + tranY
+    0              0                1
 
-
-    :param rot:
-    :param x_rotation_pt:
-    :param y_rotation_pt:
+    :param alpha:  rotation (degrees)
+    :param tranX: rotation pt x, tranX=0
+    :param tranY: rotation pt y,  tranY=0
+    :param R: scale, R=1
     :return:
     """
-    angle = rot*math.pi/180
-    R= 1
+    angle = alpha*math.pi/180
     a = R*math.cos(angle)
     b = R*math.sin(angle)
     c= -R*math.sin(angle)
     d = R*math.cos(angle)
-    e = -x_rotation_pt*math.cos(angle) + y_rotation_pt*math.sin(angle) + x_rotation_pt
-    f = -x_rotation_pt*math.sin(angle) - y_rotation_pt*math.cos(angle) + y_rotation_pt
+    e = -tranX*R*math.cos(angle) + tranY*R*math.sin(angle) + tranX
+    f = -tranX*R*math.sin(angle) - tranY*R*math.cos(angle) + tranY
     tup = [a,b,c,d,e,f]
     for i in range(0, len(tup)):
         tup[i] = round(tup[i],3)
@@ -92,20 +93,24 @@ def color_set(n= 8,r_s = 115, g_s=195, b_s= 105, r_f=25, g_f=50, b_f=25):
     return colours
 
 if __name__ == "__main__":
-    f = 'fibonacci_2.svg'
+    f = 'fibonacci_3.svg'
+    n = 21
+    colours = color_set(n)
     rot=45
-    x_rotation_pt = 5
-    y_rotation_pt = 40
+    x_rotation_pt = 0
+    y_rotation_pt = 0
     shapes=[]
-    shapes.append(rect(0, 30, 10, 20, rot, "rgb(200,50,50)", x_rotation_pt, y_rotation_pt))
+    c=0
+    for rot in range(0,360,30):
+        shapes.append(rect(-2, 0, 4, 20, rot, colours[c], x_rotation_pt, y_rotation_pt,1+ rot/360,1))
+        c += 1
     shapes.append(circle(0,0,5, rot, x_rotation_pt, y_rotation_pt))
     shapes.append(circle(x_rotation_pt, y_rotation_pt, 1,0, 0, 0))
-    n= 21
-    colours = color_set(n)
+
     w = 200/n
     h = 10
     for i in range(0, len(colours)):
-        r = rect(-100+i*w, -100, w, h, 0,colours[i],0,0)
+        r = rect(-100+i*w, -100, w, h, 0,colours[i],0,0,1,1)
         shapes.append(r)
 
     svg = create_svg(shapes)
